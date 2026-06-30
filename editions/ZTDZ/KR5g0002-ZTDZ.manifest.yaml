@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0002/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5g0002/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上正一咒鬼經
+  date: '2015-08-29 02:25:22.487945'
+  source:
+    repository: kanripo
+    path: KR5g0002
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0002_000-ZTDZ.yaml, hash: 'sha256:25b9ba5f9c6679f4ec806e1b0bcea396b05b6182e692c00651dadf1845dd3fc0'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0002_000-ZTDZ.markers.yaml, hash: 'sha256:15e5046aa791b032ea129ba1f403c5705ca99b098c26618b9db109628914e76b'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0002_SJB_000-280367b
+    span:
+    - body
+    - 0
+    - 3023
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:207ae4e75fa1ef1e9da2df9a8b574657cdae9893c70e2d50ce5b6c767e6caea6
